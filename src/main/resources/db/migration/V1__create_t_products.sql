@@ -1,0 +1,6 @@
+CREATE TABLE T_PRODUCTS (
+ID serial primary key,
+NAME varchar(256) NOT NULL,
+T_CATEGORIES_ID integer NOT NULL, 
+STATUS varchar(256) NOT NULL
+);
